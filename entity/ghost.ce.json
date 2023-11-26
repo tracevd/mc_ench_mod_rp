@@ -1,0 +1,35 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ench:ghost",
+            "materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/ghost"
+			},
+			"geometry": {
+				"default": "geometry.ghost"
+			},
+            "render_controllers": ["controller.render.ghost"],
+            "animations": {
+                "walk_controller": "controller.animation.ghost.walk",
+                "attack_controller": "controller.animation.ghost.attack",
+                "attack": "animation.ghost.attack",
+                "idle": "animation.ghost.idle",
+                "move": "animation.ghost.move"
+            },
+            "scripts": {
+                "animate": [
+                    "walk_controller",
+                    "attack_controller"
+                ]
+            },
+            "spawn_egg": {
+                "overlay_color": "#92a8a8",
+                "base_color": "#b8d1d1"
+            }
+		}
+	}
+}

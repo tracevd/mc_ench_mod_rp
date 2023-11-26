@@ -1,0 +1,48 @@
+{
+	"resource_pack_name": "More Enchants and Gear",
+	"texture_name": "atlas.items",
+	"texture_data": {
+        "ench_ectoplasm": {
+            "textures": "textures/items/ectoplasm"
+        },
+		"ench_obsidian_helmet": {
+			"textures": "textures/items/obsidian_helmet"
+		},
+		"ench_obsidian_chestplate": {
+			"textures": "textures/items/obsidian_chestplate"
+		},
+		"ench_obsidian_leggings": {
+			"textures": "textures/items/obsidian_leggings"
+		},
+		"ench_obsidian_boots": {
+			"textures": "textures/items/obsidian_boots"
+		},
+		"ench_obsidian_sword": {
+			"textures": "textures/items/obsidian_sword"
+		},
+		"ench_obsidian_pickaxe": {
+			"textures": "textures/items/obsidian_pickaxe"
+		},
+        "ench_obsidian_ingot": {
+            "textures": "textures/items/obsidian_ingot"
+        },
+		"ench_dragonscale_helmet": {
+			"textures": "textures/items/dragonscale_helmet"
+		},
+		"ench_dragonscale_chestplate": {
+			"textures": "textures/items/dragonscale_chestplate"
+		},
+		"ench_dragonscale_leggings": {
+			"textures": "textures/items/dragonscale_leggings"
+		},
+		"ench_dragonscale_boots": {
+			"textures": "textures/items/dragonscale_boots"
+		},
+		"ench_dragonscale_sword": {
+			"textures": "textures/items/dragonscale_sword"
+		},
+		"ench_dragonscale": {
+			"textures": "textures/items/dragonscale"
+		}
+	}
+}
