@@ -7,5 +7,9 @@
     "lucky_block": {
       "textures": "lucky_block",
       "sound": "stone"
+    },
+    "dragonscale_ore": {
+      "textures": "dragonscale_ore",
+      "sound": "stone"
     }
   }

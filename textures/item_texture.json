@@ -2,47 +2,50 @@
 	"resource_pack_name": "More Enchants and Gear",
 	"texture_name": "atlas.items",
 	"texture_data": {
-        "ench_ectoplasm": {
+        "tench_ectoplasm": {
             "textures": "textures/items/ectoplasm"
         },
-		"ench_obsidian_helmet": {
+		"tench_obsidian_helmet": {
 			"textures": "textures/items/obsidian_helmet"
 		},
-		"ench_obsidian_chestplate": {
+		"tench_obsidian_chestplate": {
 			"textures": "textures/items/obsidian_chestplate"
 		},
-		"ench_obsidian_leggings": {
+		"tench_obsidian_leggings": {
 			"textures": "textures/items/obsidian_leggings"
 		},
-		"ench_obsidian_boots": {
+		"tench_obsidian_boots": {
 			"textures": "textures/items/obsidian_boots"
 		},
-		"ench_obsidian_sword": {
+		"tench_obsidian_sword": {
 			"textures": "textures/items/obsidian_sword"
 		},
-		"ench_obsidian_pickaxe": {
+		"tench_obsidian_pickaxe": {
 			"textures": "textures/items/obsidian_pickaxe"
 		},
-        "ench_obsidian_ingot": {
+        "tench_obsidian_ingot": {
             "textures": "textures/items/obsidian_ingot"
         },
-		"ench_dragonscale_helmet": {
+		"tench_dragonscale_helmet": {
 			"textures": "textures/items/dragonscale_helmet"
 		},
-		"ench_dragonscale_chestplate": {
+		"tench_dragonscale_chestplate": {
 			"textures": "textures/items/dragonscale_chestplate"
 		},
-		"ench_dragonscale_leggings": {
+		"tench_dragonscale_leggings": {
 			"textures": "textures/items/dragonscale_leggings"
 		},
-		"ench_dragonscale_boots": {
+		"tench_dragonscale_boots": {
 			"textures": "textures/items/dragonscale_boots"
 		},
-		"ench_dragonscale_sword": {
+		"tench_dragonscale_sword": {
 			"textures": "textures/items/dragonscale_sword"
 		},
-		"ench_dragonscale": {
+		"tench_dragonscale": {
 			"textures": "textures/items/dragonscale"
+		},
+		"tench_dragonscale_plating": {
+			"textures": "textures/items/dragonscale_plating"
 		}
 	}
 }

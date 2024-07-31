@@ -1,0 +1,83 @@
+{
+    "namespace": "hud",
+    "hud_title_text": {
+        "alpha": 0
+    },
+    "spell_text": {
+        "type": "panel",
+        "size": ["100%cm", "100%c"],
+        "anchor_from": "top_right",
+        "anchor_to": "top_right",
+        "offset": [-5, 5],
+        "controls": [
+            {
+                "text": {
+                    "$update_string": "tench:spell_cooldowns",
+                    "type": "label",
+                    "text": "#text",
+                    "anchor_from": "left",
+                    "anchor_to": "left",
+                    "text_alignment": "left",
+                    "layer": 2,
+                    "localize": false,
+                    "font_size": "medium",
+                    "controls": [
+                        {
+                            "data_control": {
+                                "type": "panel",
+                                "size": [ 0, 0 ],
+                                "bindings": [
+                                    {
+                                        "binding_name": "#hud_title_text_string"
+                                    },
+                                    {
+                                        "binding_name": "#hud_title_text_string",
+                                        "binding_name_override": "#preserved_text",
+                                        "binding_condition": "visibility_changed"
+                                    },
+                                    {
+                                        "binding_type": "view",
+                                        "source_property_name": "(not (#hud_title_text_string = #preserved_text) and not ((#hud_title_text_string - $update_string) = #hud_title_text_string))",
+                                        "target_property_name": "#visible"
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "bindings": [
+                        {
+                            "binding_type": "view",
+                            "source_control_name": "data_control",
+                            "source_property_name": "(#preserved_text - $update_string)",
+                            "target_property_name": "#text"
+                        }
+	                ]
+                }
+            }            
+        ]
+    },
+    "anim_title_text_alpha_in": {
+        "anim_type": "alpha",
+        "easing": "linear",
+        "duration": "$title_fade_in_time",
+        "from": 1,
+        "to": 1,
+        "next": "@hud.anim_title_text_alpha_stay"
+    },
+    "anim_title_text_alpha_stay": {
+        "anim_type": "wait",
+        "duration": 1,
+        "next": "@hud.anim_title_text_alpha_stay"
+    },
+    "root_panel": {
+        "modifications": [
+            {
+                "array_name": "controls",
+                "operation": "insert_front",
+                "value": [
+                    { "spell_text@hud.spell_text": {} }
+                ]
+            }
+        ]
+    }
+}

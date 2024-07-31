@@ -9,6 +9,9 @@
         },
         "lucky_block": {
             "textures": "textures/blocks/lucky_block"
+        },
+        "dragonscale_ore": {
+            "textures": "textures/blocks/dragonscale_ore"
         }
     }
 }
