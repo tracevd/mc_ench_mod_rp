@@ -1,1 +1,1 @@
-For use with mc_ench_mod_bp
+For use with the corresponding [Behavior Pack](https://github.com/tracevd/mc_ench_mod_bp)
